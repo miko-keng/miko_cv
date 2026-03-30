@@ -2,8 +2,8 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Jessie Keng",
-  initials: "JK",
+  name: "Miko Keng",
+  initials: "MK",
   url: "https://github.com/jessiekeng",
   location: "Selangor, Malaysia",
   locationLink: "https://www.google.com/maps/place/Selangor",
@@ -11,9 +11,9 @@ export const DATA = {
     "Data Science Student at Sunway University. Passionate about AI, Full-Stack Development, and Data Analytics.",
   summary:
     "17-year-old Data Science student with a 3.9 CGPA and a recipient of the Sunway Entrance Scholarship. I specialize in bridging the gap between Data Analytics and Software Engineering through hands-on projects in RAG-based AI chatbots and Full-Stack development.",
-  avatarUrl: "/me.png", 
+  avatarUrl: "/me.png",
   skills: [
-    "Python", "SQL", "Java", "JavaScript", "TypeScript", "React", "Node.js", 
+    "Python", "SQL", "Java", "JavaScript", "TypeScript", "React", "Node.js",
     "Express", "MongoDB", "Next.js", "Angular", "Spring Boot", "RAG", "LLM", "Pandas", "Power BI"
   ],
   navbar: [
@@ -38,7 +38,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/jessiekeng", 
+        url: "https://x.com/jessiekeng",
         icon: Icons.x,
         navbar: true,
       },
@@ -98,36 +98,36 @@ export const DATA = {
     },
   ],
   certificates: [
-     { 
-    title: "Deep Dive Into Modern Web Development", 
-    issuer: "University of Helsinki", 
-    link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/02151d342347f33850e71d8fd6dd67b3" 
-  },
-  { 
-    title: "Google Cloud Certifications", 
-    issuer: "Google", 
-    link: "https://www.credly.com/users/zi-xing-keng/badges#credly" 
-  },
-  { 
-    title: "RAG Artificial Intelligence (AI Chatbot)", 
-    issuer: "DeepLearning.AI", 
-    link: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e" 
-  },
-  { 
-    title: "Programming for Everybody (Python)", 
-    issuer: "University of Michigan", 
-    link: "https://www.coursera.org/account/accomplishments/verify/P3MCYGSRZD6M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
-  { 
-    title: "Foundations: Data, Data, Everywhere", 
-    issuer: "Google", 
-    link: "https://www.coursera.org/account/accomplishments/verify/29YKRNY8ZAEY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
-  { 
-    title: "Foundations of User Experience (UX) Design", 
-    issuer: "Google", 
-    link: "https://www.coursera.org/account/accomplishments/verify/3ANGJHG4MGQJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" 
-  },
+    {
+      title: "Deep Dive Into Modern Web Development",
+      issuer: "University of Helsinki",
+      link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/02151d342347f33850e71d8fd6dd67b3"
+    },
+    {
+      title: "Google Cloud Certifications",
+      issuer: "Google",
+      link: "https://www.credly.com/users/zi-xing-keng/badges#credly"
+    },
+    {
+      title: "RAG Artificial Intelligence (AI Chatbot)",
+      issuer: "DeepLearning.AI",
+      link: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e"
+    },
+    {
+      title: "Programming for Everybody (Python)",
+      issuer: "University of Michigan",
+      link: "https://www.coursera.org/account/accomplishments/verify/P3MCYGSRZD6M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
+    {
+      title: "Foundations: Data, Data, Everywhere",
+      issuer: "Google",
+      link: "https://www.coursera.org/account/accomplishments/verify/29YKRNY8ZAEY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
+    {
+      title: "Foundations of User Experience (UX) Design",
+      issuer: "Google",
+      link: "https://www.coursera.org/account/accomplishments/verify/3ANGJHG4MGQJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    },
   ],
   projects: [
     {
@@ -139,7 +139,7 @@ export const DATA = {
         "Completed RAG-based chatbot projects using LangChain and LLMs in Python (Jupyter Notebook). Tuned temperature and prompt structures to optimize responses.",
       technologies: ["Python", "Jupyter Notebook", "LLM", "RAG"],
       links: [
-    // Only include a link if there’s a publicly shareable certificate
+        // Only include a link if there’s a publicly shareable certificate
         {
           type: "Certificate",
           href: "https://coursera.org/share/c2898db69c70fb6600be887742abca5e",
@@ -174,7 +174,7 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/jessiekeng/pygame_project",
           icon: <Icons.github className="size-3" />,
-    },
+        },
       ],
       image: "",
       video: "",
